@@ -1,0 +1,146 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+.container1 {
+    background-color: #b2dde0;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+}
+
+.img-container1 {
+    width: 30px;
+}
+
+.textocontainer1 {
+    text-align: left;
+    padding-left: 5px;
+    color: #ffffff;
+    font-family: fantasy;
+    font-size: 12px;
+}
+
+.textocontainer2 {
+    text-align: right;
+    padding-right: 30px;
+    color: #ffffff;
+    font-family: fantasy;
+    font-size: 12px;
+}
+
+#logo {
+    width: 280px;
+}
+
+.objeto-logo {
+    text-align: center;
+}
+
+.container2 {
+    background-color: #ffffff;
+}
+
+#main-content {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#menu {
+    margin: auto;
+    margin-top: 0px;
+}
+
+.productos-menu {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.linea
+{
+    display: inline-block;
+}
+
+.textomenu {
+    font-family: fantasy;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgb(141, 140, 140);
+    text-decoration: none;
+}
+
+.textomenu:hover {
+    color: rgb(255, 255, 255);
+}
+
+.productos-menu:hover {
+    text-align: center;
+    background-color: #e0a9b1;
+    color: #ffffff;
+}
+
+.info-menu {
+    background-color: #ffffff;
+}
+
+#info {
+    color:rgb(141, 140, 140);
+    padding-left: 30px;
+    font-family: fantasy;
+}
+
+.slider {
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    background-color: aqua;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0px;
+    width: 100%;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: inherit;
+    height: 300px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.article {
+    background-color: #ffffff;
+    margin-top: 5px;
+    width: calc(75% - 20px);
+    float: left;
+}
+
+#tabla {
+    margin: auto;
+}

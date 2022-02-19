@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Primera Web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi primer heading</h1>
+    <h2>Mi Segundo heading</h2>
+    <p>Bienvenido a mi pagina web</p>
+    <p>Gracias por visitar mi pagina web</p>
+    <hr>
+    <h2>Productos de mi pagina web</h2>
+    <p>mis Productos</p>
+    <p>
+        Este texto es <span style="color: blue">mucho mas largo</span> y es para
+        mostrar <br> la etiqueta de span!
+    </p>
+
+    <!-- TABLAS -->
+    <table>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola beats </td>
+                <td>gratis</td>
+            </tr>
+            <tr>
+                <td>Agenda 1</td>
+                <td>$ 10.000</td>
+            </tr>
+            <tr>
+                <td>Agenda 2</td>
+                <td>$ 20.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Total </td>
+            <td>$ 30.000</td>
+        </tfoot>
+    </table>
+
+    <br>
+
+    <!-- este texto es un comentario -->
+    <a target="_blank" href="https://www.google.com">Ir a google</a>
+    <br>
+    <img src="./Practica HTML/imagenes/HTML_logo.png" width="200px" />
+
+    <!-- lista no ordenada ul -->
+    <ul>
+        <li> Elemento 1</li>
+        <li> Elemento 2</li>
+        <li> Elemento 3</li>
+        <li> Elemento 4</li>
+    </ul>
+
+     <!-- lista ordenada ol -->
+     <ol>
+        <li value="50"> Elemento 1</li>
+        <li> Elemento 2</li>
+        <li> Elemento 3</li>
+        <li> Elemento 4</li>
+        <li> Elemento 5
+            <ol>
+                <li style="list-style-type: lower-alpha;">Sub elemento 1</li>
+                <li style="list-style-type: lower-alpha;">Sub elemento 2</li>
+                <li style="list-style-type: lower-alpha;">Sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+    <!-- Formularios -->
+    <form action="/Proyecto_HTML/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/> <!-- Valores comunes para Type: 
+            email/password/radio/submit/checkbox/file -->
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea cols="40" rows="6" id="comentario" name="comentario" placeholder="ingrese comentario"></textarea>
+        <br>
+        <button type="button">Tipo Boton</button>
+        <button type="reset">Tipo Reset</button>
+        <button type="submit">Tipo Submit</button>
+    </form>
+
+
+</body>
+</html>
