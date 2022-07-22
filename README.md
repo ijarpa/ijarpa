@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ijarpa
-- 👀 I’m interested in learning Python & Data Science 
-- 🌱 I’m currently learning data science 
+- 👀 I’m interested in learning Data Analysis 
+- 🌱 I’m currently learning Python & Power BI
 - 💞️ I’m looking to collaborate on new real projects related to data analysis.
 - 📫 My social networks are instagram: www.instagram.com/ijarpa/ and LinkedIn: www.linkedin.com/in/ijarpa/
 
