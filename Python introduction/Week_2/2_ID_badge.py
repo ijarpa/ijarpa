@@ -1,0 +1,18 @@
+print("######### ID Badge Generator ############")
+
+print("Please enter the following information:\n")
+First_name = input("First name:")
+Last_name = input("last name:")
+Email_Address = input("Email:")
+Phone_Number = input("Phone number:")
+Job_Title = input("Job title:")
+ID_Number = input("ID number:")
+
+print("\nThe ID card is: ")
+print("-----------------------------------")
+print(Last_name.upper()," ,",First_name.capitalize())
+print(Job_Title.capitalize())
+print(f"ID:",ID_Number,"\n")
+print(Email_Address.lower())
+print(Phone_Number)
+print("-----------------------------------")
